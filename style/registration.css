@@ -1,0 +1,244 @@
+.center{
+    margin-right: auto;
+    margin-left: 40%;
+    display: inline-block;
+    width: 9%;
+
+}
+.help{
+    margin-right: 0%;
+    margin-left: 42%;
+    display: inline-block;
+    width: auto;
+}
+.help a{
+    color: gray;
+    font-size: 15px;
+}
+.help a:link{
+    text-decoration: none;
+}
+header{
+    border-bottom: thin solid gray;
+    background-color: white;
+}
+
+.main{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    right: 0%;
+    background: url("images/ground.png");
+    background-repeat: no-repeat;
+    background-size: 370px 100%;
+}
+
+.back{
+    background-image: url("images/white.png");
+    width: 900px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 850px 100%;
+    background-position: 50px 0px;
+    display: block;
+    box-shadow: 0 0 7px 0px #282a2d;
+    line-height: 1.4;
+    margin-top: 35px;
+    margin-left: 280px;
+    border-radius: 4px;
+}
+.circle1{
+    height: 40px;
+    width: 40px;
+    background-color:#5c94cf;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.001cm;
+    margin-left: 27.5px;
+    margin-bottom: 44px;
+}
+
+.circle2{
+    height: 40px;
+    width: 40px;
+    background-color:#e6e7e7;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.001cm;
+    margin-left: 27.5px;
+    margin-bottom: 44px;
+}
+
+.circle3{
+    height: 40px;
+    width: 40px;
+    background-color:#e6e7e7;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.001cm;
+    margin-left: 27.5px;
+    margin-bottom: 44px;
+}
+
+.circle4{
+    height: 40px;
+    width: 40px;
+    background-color:#e6e7e7;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.001cm;
+    margin-left: 27.5px;
+    margin-bottom: 44px;
+}
+
+.circle5{
+    height: 40px;
+    width: 40px;
+    background-color:#e6e7e7;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.001cm;
+    margin-left: 27.5px;
+    margin-bottom: 44px;
+}
+
+.circle6{
+    height: 40px;
+    width: 40px;
+    background-color:#e6e7e7;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.001cm;
+    margin-left: 27.5px;
+    margin-bottom: 44px;
+}
+
+.circle7{
+    height: 40px;
+    width: 40px;
+    background-color:#e6e7e7;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.001cm;
+    margin-left: 27.5px;
+    margin-bottom: 44px;
+}
+
+.colom{
+    width: 1000px;
+    
+}
+
+.form{
+    margin-left: 200px;
+    margin-top: -210px;
+}
+
+.name{
+    
+    font-size: 17px;
+    
+}
+
+h1{
+    margin-top: 150px;
+}
+
+.menu{
+    width: 50%; height: 100px;
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.menu ul {
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu li button{
+    text-decoration: none;
+    color: #5a5ca9;
+    padding: 5px 20px;
+    border: 1px ridge black;
+    transition: 0.5s ease;
+    background-color: white;
+
+}
+
+.menu li button:hover{
+    background-color: #5a5ca9;
+    color: white;
+}
+
+button{
+    display: inline-block;
+    margin-left: 50%;
+    padding: 2px;
+}
+
+
+
+.menu a {
+    margin-left: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #5a5ca9;
+    transition: 0.4s ease;
+}
+
+.menu a:hover{
+    background-color: #5a5ca9;
+    color: white;
+}
+
+.menu a:link{
+    text-decoration: none;
+}
+
+.save{
+    margin-left: 38px;
+    padding: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: solid;
+    background-color: white;
+    color: #5a5ca9;
+    transition: 0.4s ease;
+}
+
+.save:hover{
+    background-color: #5a5ca9;
+    color: white;
+}
+
+h5{
+    color: red;
+}

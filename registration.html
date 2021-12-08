@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" href="style/registration.css">
+	<script type="text/javascript" src="script/reg.js"></script>
+</head>
+<body>
+	<header>
+		<img src="image/supersetlogovector (1).svg" class="center">
+		<h3 class="help"><a href="">STUDENT HELP</a></h3>
+	</header>
+	<div class="main">
+		<div class="back">
+			<table>
+				<tr>
+					<td>
+						<div class="shapes">
+							<div class="circle1"></div>
+							<div class="circle2"></div>
+							<div class="circle3"></div>
+							<div class="circle4"></div>
+							<div class="circle5"></div>
+							<div class="circle6"></div>
+							<div class="circle7"></div>
+						</div>
+					</td>
+					<td class="colom">
+						<div class="form">
+							<form action="">
+								<table>
+									<tr>
+										<h1>Registration Form</h1>
+									</tr>
+									<tr>
+										<td  class="name">
+											<label>Full Name :</label>
+										</td>
+										<td>
+											<input type="text" id="name" placeholder="Enter your full name">
+										</td>
+									</tr>
+									<tr>
+										<td class="name">
+											<label>E-mail : </label>
+										</td>
+										<td>
+											<input type="email" id="email" placeholder="E-mail">
+										</td>
+									</tr>
+									<tr>
+										<td class="name">
+											<label>Contact No. :</label>
+										</td>
+										<td>
+											<input type="tel" id="conNo" placeholder="Mobile Number">
+										</td>
+									</tr>
+									<tr>
+										<td class="name">
+											<label>University : </label>
+										</td>
+										<td>
+											<input type="text" id="uni" placeholder="Enter your University">
+										</td>
+									</tr>
+									<tr>
+										<td class="name">
+											<label>Select your College :</label>
+										</td>
+										<td>
+											<select id="college">
+												<option value="">Select your college here</option>
+												<option value="jnnce">JNNCE</option>
+												<option value="bgmit">BGMIT</option>
+												<option value="kit" >KIT</option>
+												<option value="pesit" >PESIT</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td class="name">
+											<label>Year of passed out :</label>
+										</td>
+										<td>
+											<select id="yop">
+												<option value="">Select year of passout</option>
+												<option value="2021">2021</option>
+												<option value="2020">2020</option>
+												<option value="2019">2019</option>
+												<option value="2018">2018</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td class="name">
+											<label>Course : </label>
+										</td>
+										<td>
+											<input type="text" id="course" placeholder="Enter your course">
+										</td>
+									</tr>
+									<tr>
+										<td class="name">
+											<label>Select Branch :</label>
+										</td>
+										<td>
+											<select id="branch">
+												<option value="">Select branch here</option>
+												<option value="cse">CSE</option>
+												<option value="civil">Civil</option>
+												<option value="ece">ECE</option>
+												<option value="eee">EEE</option>
+												<option value="ise">ISE</option>
+												<option value="me">ME</option>
+												<option value="tce">TCE</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label>Percentage / cgpa :</label>
+										</td>
+										<td>
+											<input type="number" id="percentage" placeholder="Enter your percentage / cgpa">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label for="">Date of birth :</label>
+										</td>
+										<td>
+											<input type="date" id="dob">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label for="">Gender :</label>
+										</td>
+										<td>
+											<input type="radio" name="gender" value="male">
+											<label for="male" >Male</label>
+											<input type="radio" name="gender" value="female">
+											<label for="female">Female</label>
+											<input type="radio" name="gender" value="other">
+											<label for="other">Other</label>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											
+										</td>
+										<td>
+											<h5 id="print"></h5>
+										</td>
+									</tr>	
+									<tr>
+										<td>
+											
+										</td>
+										<td>
+											<div class="menu"> 
+												<ul>
+												 <li><button type="reset">Clear</button></li>
+												 <li><input type="button" onclick="validate()" value="Save" class="save"></li>
+												 <li><a href="registration1.html">Next</a></li>
+												</ul>
+											   </div>
+										</td>
+									</tr>
+								</table>
+							</form>
+						</div>
+					</td>
+				</tr>
+			</table>	
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+.center{
+    margin-right: auto;
+    margin-left: 40%;
+    display: inline-block;
+    width: 9%;
+
+}
+.help{
+    margin-right: 0%;
+    margin-left: 42%;
+    display: inline-block;
+    width: auto;
+}
+.help a{
+    color: gray;
+    font-size: 15px;
+}
+.help a:link{
+    text-decoration: none;
+}
+header{
+    border-bottom: thin solid gray;
+}
+
+.main img{
+    
+}
+.main{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      width: 80%;
+      height: 530px;
+
+      box-shadow: 10px 10px 25px #ccc;
+      
+}
+
+.logo{
+    width: 180px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+
+}
+
+
+
+.back{
+    background-image: url("images/white.png");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 7px 0px #282a2d;
+    line-height: 1.4;
+
+    margin-top: 35px;
+
+
+}
+
+body{
+    
+}
+
+.text{
+    text-align: center;
+}
+
+.text h2{
+    padding-top: 30px;
+    margin: 0px;
+    
+}
+
+.text h5{
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: gray;
+}
+
+.text h4{
+    margin: 0px;
+    padding-top: 0px;
+    color: gray;
+}
+.reg{
+    margin-top: 0;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.reg button{
+    background-color: #48449c;
+    color: white;
+    width: 350px;
+    height: 45px;
+    font-size: 18px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 260px;
+}
+table a:link{
+    text-decoration: none;
+}
+table h4{
+    color: gray;
+}
+
+.start{
+    color: white;
+}
+.reg a:link{
+    text-decoration: none;
+}

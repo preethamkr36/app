@@ -1,0 +1,168 @@
+tr{
+    width: 100%;
+    height: 100% ;
+}
+.left{
+    background: url("images/back.png");
+    background-repeat: no-repeat ;
+    background-size: 80%;
+    
+}
+.left{
+    width: 550px;
+    height: 650px;
+}
+.left img{
+    width: 200px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 110px;
+
+}
+
+.left h1{
+    color: white;
+    margin-left: 5px;
+    position: fixed;
+    top: 240px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.left h4{
+    color: gray;
+    margin-left: 125px;
+    position: fixed;
+    top: 290px;
+    font-style: italic;
+}
+.tt{
+    width: 100%;
+    height: 100px;
+}
+.sign h1{
+    position: fixed;
+    top: 150px;
+    left: 750px;
+    color: #757575;
+}
+.sign h5{
+    position: fixed;
+    top: 190px;
+    left: 750px;
+    color: #757575;
+}
+.google{
+    background-color: #df4a38;
+      border: solid;
+      color: white;
+      border-color: black;
+      border-width: thin;
+      padding: 5px;
+      width: 300px;
+      height: 30px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 13px;
+      position: fixed;
+      top: 240px;
+      left: 750px;
+}
+
+.facebook{
+      background-color: #3a5a9a;
+      border: solid;
+      color: white;
+      border-color: black;
+      border-width: thin;
+      padding: 5px;
+      width: 300px;
+      height: 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 13px;
+      position: fixed;
+      top: 280px;
+      left: 750px;
+}
+.google a{
+    color: white;
+}
+.google a:link {
+  text-decoration: none;
+}
+.facebook a{
+    color: white;
+}
+.facebook a:link {
+  text-decoration: none;
+}
+
+input{
+    border-style: solid;
+    border-width: thin;
+    border-color: #e0e1e1;
+    font-size: 12px;
+    margin: 8px;
+    width: 300px;
+    height: 25px;
+    background-color: #eaf2fb;
+}
+
+form{
+    left: 740px;
+    position: fixed;
+}
+
+.login{
+    background-color: #5c94cf;
+      color: white;
+      border-style: none;
+      padding: 5px;
+      width: 305px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 13px;
+      position: fixed;
+      top: 450px;
+      left: 748px;
+}
+
+.forget{
+    position: fixed;
+    top: 500px;
+    left: 830px;
+    font-size: 12px;
+}
+.forget a{
+    color: gray;
+}
+.forget a:link{
+    text-decoration: none;
+}
+.up{
+    position: fixed;
+    top: 500px;
+    left: 1015px;
+    font-size: 12px;
+}
+
+footer{
+    position: fixed;
+    top: 1000px;
+    left: 10px;
+    color: gray;
+}
+.left h6{
+    position: fixed;
+    top: 600px;
+    left: 60px;
+    color: white;
+}
+
+#print{
+    margin-top: -100px;
+    margin-left: 10px;
+    color: red;
+}
